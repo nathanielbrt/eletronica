@@ -5,7 +5,7 @@ Este repositório contém um levantamento geral do funcionamento de cada PCB emb
 ## Nossas PCB's
 
 ### 1. 🛰️ Placa de Aquisição de Dados (Data Acquisition)
-![Foto da Placa de Aquisição de Dados](imagens/data_acq.jpg)
+![Foto da Placa de Aquisição de Dados](Imagens/data_acq.png)
 
 Esta placa é o **sistema sensorial** do foguete. Sua principal responsabilidade é coletar dados críticos sobre o estado e a posição do foguete durante todo o voo, desde a plataforma de lançamento até a recuperação.
 
@@ -17,7 +17,7 @@ Esta placa é o **sistema sensorial** do foguete. Sua principal responsabilidade
 ---
 
 ### 2. 🧠 Computador de Bordo (On-Board Computer)
-![Foto da Placa de Computação de Bordo](imagens/obc.jpg)
+![Foto da Placa de Computação de Bordo](Imagens/obc.png)
 
 O OBC é o **cérebro de toda a operação**. Construído em torno de um poderoso microcontrolador `STM32`, esta placa centraliza o gerenciamento de todos os subsistemas, faz a fusão e filtragem dos dados recebidos e comanda envio e armazenamento deles.
 
@@ -27,7 +27,7 @@ O OBC é o **cérebro de toda a operação**. Construído em torno de um poderos
 ---
 
 ### 3. 📡 Placa de Comunicação e Armazenamento (Sending & Storage)
-![Foto da Placa de Computação de Bordo](imagens/send_sto.jpg)
+![Foto da Placa de Computação de Bordo](Imagens/send_sto.png)
 
 Esta placa é o **elo de comunicação** foguete-solo e, ao mesmo tempo, a **"caixa-preta"** do foguete. Ela garante que os dados de voo sejam transmitidos para o nosso receptor e que uma cópia segura de tudo seja armazenada a bordo.
 
